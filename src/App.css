@@ -1,0 +1,79 @@
+
+/*--------------------------------navbar----------------------- */
+
+.menu{
+  display: flex;
+  position: fixed;
+  background: #ffffff;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 15px;
+  width: 100%;
+}
+.span{
+    
+  margin-bottom: 40px;
+}
+.menu-list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.menu__group{
+  margin-left: .6rem;
+}
+.menu__group link{
+  text-decoration: none;
+}
+.reg{
+  display: block;
+  padding: 5px;
+  background: rgb(23, 5, 156);
+  border-radius: 2px;
+  color: rgb(227, 226, 226);
+  font-family: sans-serif;
+  text-decoration: none;
+  font-weight:500;
+  transition: 0.5s;
+}
+.reg:hover{
+  background: #dad7d7;
+  color: rgb(23, 5, 156);
+}
+.log{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.logo{
+  font-size: large;
+  font-weight: bolder;
+  align-items: center;
+  background: rgb(11, 9, 141);
+  color: rgb(255, 255, 255);
+  padding: 3px;
+  border-radius: 4px;
+}
+.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+a{
+  text-decoration: none;
+  font-weight: 600;
+}
+.links p{
+  margin: 0 .5rem 0 .5rem;
+  transition: .5s;
+}
+
+.links p:hover{
+  font-size: larger;
+  
+}
+@media screen and (max-width: 480px) {
+  .links{
+    display: none;
+  }
+}
